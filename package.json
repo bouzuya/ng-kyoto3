@@ -1,0 +1,20 @@
+{
+  "name": "ng-kyoto3",
+  "version": "1.0.0",
+  "author": "bouzuya",
+  "description": "ng-kyoto#3 angular2",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.46"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "typescript": "^1.6.2"
+  }
+}
