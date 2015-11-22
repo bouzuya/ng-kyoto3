@@ -15,8 +15,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "browserify": "browserify ./app/index.js -o ./index.js",
+    "browserify": "browserify ./index.js -o ./bundle.js",
     "build": "npm run tsc && npm run browserify",
-    "tsc": "tsc -t es5 -m commonjs --experimentalDecorators --emitDecoratorMetadata --moduleResolution node ./app/index.ts"
+    "tsc": "tsc -t es5 -m commonjs --experimentalDecorators --emitDecoratorMetadata --moduleResolution node ./index.ts"
   }
 }
